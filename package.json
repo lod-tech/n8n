@@ -1,0 +1,42 @@
+{
+  "name": "n8n-nodes-clod",
+  "version": "0.1.0",
+  "description": "n8n community node for CLōD API (OpenAI-compatible)",
+  "keywords": [
+    "n8n-community-node-package",
+    "n8n",
+    "clod",
+    "openai",
+    "ai",
+    "llm"
+  ],
+  "license": "MIT",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc && npm run copy-icons",
+    "copy-icons": "mkdir -p dist/icons dist/nodes && cp icons/* dist/icons/ 2>/dev/null || true && cp nodes/*.svg dist/nodes/ 2>/dev/null || true",
+    "dev": "n8n start",
+    "lint": "tsc --noEmit",
+    "prepublishOnly": "npm run build"
+  },
+  "files": [
+    "dist"
+  ],
+  "n8n": {
+    "n8nNodesApiVersion": 1,
+    "credentials": [
+      "dist/credentials/ClodApi.credentials.js"
+    ],
+    "nodes": [
+      "dist/nodes/Clod.node.js"
+    ]
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "n8n-workflow": "^1.23.0",
+    "typescript": "^5.3.0"
+  },
+  "peerDependencies": {
+    "n8n-workflow": ">=1.0.0"
+  }
+}
