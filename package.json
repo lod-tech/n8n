@@ -1,5 +1,5 @@
 {
-  "name": "n8n-nodes-clod",
+  "name": "@clod_io/n8n-nodes-clod",
   "version": "0.1.0",
   "description": "n8n community node for CLōD API (OpenAI-compatible)",
   "keywords": [
