@@ -7,7 +7,7 @@ import type {
 } from 'n8n-workflow';
 import { NodeOperationError } from 'n8n-workflow';
 
-export class Clod implements INodeType {
+export class ClodNode implements INodeType {
 	description: INodeTypeDescription = {
 		displayName: 'CLōD',
 		name: 'clod',

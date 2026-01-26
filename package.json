@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "description": "n8n community node for CLōD API (OpenAI-compatible)",
   "keywords": [
+    "n8n-community-node",
     "n8n-community-node-package",
     "n8n",
     "clod",
@@ -28,7 +29,7 @@
       "dist/credentials/ClodApi.credentials.js"
     ],
     "nodes": [
-      "dist/nodes/Clod.node.js"
+      "dist/nodes/ClodNode.node.js"
     ]
   },
   "devDependencies": {
