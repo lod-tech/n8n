@@ -12,6 +12,8 @@
     "llm"
   ],
   "license": "MIT",
+  "author": "CLōD (Doeun Kwon)",
+  "homepage": "https://clod.io",
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc && npm run copy-icons",
