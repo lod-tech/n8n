@@ -14,6 +14,10 @@
   "license": "MIT",
   "author": "CLōD <acct@lincoin.com>",
   "homepage": "https://clod.io",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lod-tech/n8n.git"
+  },
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc && npm run copy-icons",
