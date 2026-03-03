@@ -12,7 +12,7 @@
     "llm"
   ],
   "license": "MIT",
-  "author": "CLōD (Doeun Kwon)",
+  "author": "CLōD <acct@lincoin.com>",
   "homepage": "https://clod.io",
   "main": "dist/index.js",
   "scripts": {
