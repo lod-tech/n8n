@@ -5,7 +5,7 @@ import type {
 	INodeTypeDescription,
 	IHttpRequestOptions,
 } from 'n8n-workflow';
-import { NodeOperationError } from 'n8n-workflow';
+import { NodeConnectionType, NodeOperationError } from 'n8n-workflow';
 
 export class ClodNode implements INodeType {
 	description: INodeTypeDescription = {
@@ -19,8 +19,8 @@ export class ClodNode implements INodeType {
 		defaults: {
 			name: 'CLōD',
 		},
-		inputs: ['main'],
-		outputs: ['main'],
+		inputs: [NodeConnectionType.Main],
+		outputs: [NodeConnectionType.Main],
 		credentials: [
 			{
 				name: 'clodApi',
