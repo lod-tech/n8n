@@ -1,0 +1,14 @@
+{
+  "node": "n8n-nodes-clod.clod",
+  "nodeVersion": 1,
+  "codexVersion": 1,
+  "categories": ["AI"],
+  "resources": {
+    "primaryDocumentation": [
+      {
+        "url": "https://clod.io"
+      }
+    ]
+  },
+  "alias": ["CLōD", "clod", "openai", "llm", "ai", "chat", "completion"]
+}
