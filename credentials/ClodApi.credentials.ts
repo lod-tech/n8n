@@ -8,6 +8,7 @@ import type {
 export class ClodApi implements ICredentialType {
 	name = 'clodApi';
 	displayName = 'CLōD API';
+	icon = 'file:clod-logo.svg';
 	documentationUrl = 'https://app.clod.io/user/documentation';
 
 	properties: INodeProperties[] = [
