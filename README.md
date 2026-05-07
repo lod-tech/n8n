@@ -18,7 +18,7 @@ npm install @clod_io/n8n-nodes-clod
 
 ## Credentials
 
-1. Go to [https://app.clod.io](https://app.clod.io) and sign in
+1. Go to [https://app.clod.io](https://app.clod.io/?utm_source=n8n&utm_medium=community-node&utm_campaign=n8n-node) and sign in
 2. Navigate to your account settings to get your API key
 3. In n8n, create new credentials of type **CLōD API** and enter your API key
 
